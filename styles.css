@@ -227,11 +227,10 @@ header::after {
 /******** SPLASH SCREEN STYLES ********/
 
 .splash-bg {
-    
     background-color: #FFF;
     background-repeat: no-repeat;
     background-size: cover;
-/*    height: 100vh;*/
+    height: 100vh;
     max-height: 1080px;
     border: thin transparent solid;
     border-bottom: thin #fff solid;
@@ -1079,11 +1078,15 @@ header::after {
 @media (min-width: 700px) {
     
     .splash-bg {
-        background-image: linear-gradient(-45deg, #4ad1ef, #fff);
+/*        background-image: linear-gradient(-45deg, #4ad1ef, #fff);*/
+/*        background-image: url(img/deskbg.png);*/
     }
     
     .splash-1 h1 {
         color: 000;
+    }
+    
+    .splash-2 img {
     }
     
     .skills-tech-wrap {

@@ -9,11 +9,12 @@ $('.menu-toggle').click(function() {
        $(document).ready(function(){
           $(window).scroll(function(){
               if($(window).scrollTop() > 0){
-                  $("header").css({"background-color":"white"});
+                  $("header").css({"background-color":"#f4f4f4"});
                   $("header").css({"top":"0px"});
               }
               else {
                   $("header").css({"background-color":"transparent"});
+                  $("header").css({"box-shadow":"0px 0px 0px #494949"});
                   $("header").css({"top":"15px"});
               }
           });
