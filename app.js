@@ -5,6 +5,7 @@ $('.menu-toggle').click(function() {
     
 })
 
+
 // fade in nav text script
        $(document).ready(function(){
           $(window).scroll(function(){
