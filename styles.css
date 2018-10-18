@@ -71,6 +71,10 @@
     outline: none;
 }
 
+html, body {
+    max-width: 100%;
+}
+
 body {
     background: #FFF;
     font-family: 'Quicksand', sans-serif;
@@ -231,7 +235,7 @@ header::after {
     background-color: #FFF;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+/*    height: 100vh;*/
     max-height: 1080px;
     border: thin transparent solid;
     border-bottom: thin #fff solid;
@@ -1081,6 +1085,7 @@ header::after {
     .splash-bg {
         background-image: linear-gradient(-45deg, #4ad1ef, #fff);
 /*        background-image: url(img/deskbg.png);*/
+        height: 100vh;
     }
     
     .splash-1 h1 {
