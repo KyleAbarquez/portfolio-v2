@@ -9,7 +9,7 @@ $('.menu-toggle').click(function() {
        $(document).ready(function(){
           $(window).scroll(function(){
               if($(window).scrollTop() > 0){
-                  $("header").css({"background-color":"#f4f4f4"});
+                  $("header").css({"background-color":"rgba(255, 255, 255, .8)"});
                   $("header").css({"top":"0px"});
               }
               else {
