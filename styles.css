@@ -134,7 +134,7 @@ header::after {
 }
 
 #m-logo #A {
-    color: #288ce2;
+    color: #b5b5b5;
 }
 
 #logo {
@@ -144,11 +144,10 @@ header::after {
     font-weight: 700;
     display: none;
     font-family: "days one";
-    color: #42f474;
 }
 
 #K {
-    color: #288ce2;
+    color: #b5b5b5;
 }
 
 #logo:hover {
@@ -1423,7 +1422,7 @@ hr {
     }
     
     #logo #A {
-        color: #288ce2;
+        color: #b5b5b5;
     }
     
     .site-nav {
