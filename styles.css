@@ -134,7 +134,7 @@ header::after {
 }
 
 #m-logo #A {
-    color: #4ad6f9;
+    color: #288ce2;
 }
 
 #logo {
@@ -236,6 +236,7 @@ header::after {
 
 .splash-bg {
     background-color: #FFF;
+    background-image: url(img/pcbg.png);
     background-repeat: no-repeat;
     background-size: cover;
 /*    height: 100vh;*/
@@ -277,7 +278,7 @@ header::after {
 
 .splash-1 h1 {
     font-family: "Days One", serif;
-    color: #288ce2;
+    color: #ffa23f;
     font-weight: 100;
     margin-bottom: .5em;
 }
@@ -400,13 +401,37 @@ header::after {
     margin: 0 auto;
     margin-top: 1em;
     border-radius: 12px;
-    background-color: #ededed;
+/*    background-color: #ededed;*/
+}
+
+#skillsicon {
+    max-width: 100px;
+    margin-bottom: 0;
+}
+
+.st-card img {
+    max-width: 170px;
+    margin-bottom: -2em;
 }
 
 .st-card h3 {
-    color: #288ce2;
-    font-size: 24px;
+    color: #ffa23f;
+    font-size: 20px;
     font-family: "days one", sans-serif;
+    font-weight: 100;
+    margin-bottom: 12px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 4px solid #ccc;
+    border-radius: 2px;
+    margin: 1em 0;
+    padding: 0;
+    width: 55%;
+    margin: 0 auto;
     margin-bottom: 12px;
 }
 
@@ -456,7 +481,7 @@ header::after {
 
 .title-holder h1 {
     font-family: "Days One", serif;
-    color: #288ce2;
+    color: #ffa23f;
     font-weight: 100;
     text-align: center;
     padding-top: 1em;
@@ -560,14 +585,14 @@ header::after {
     margin-top: 18px;
     border-radius: 6px;
     transition: all ease-in-out 150ms;
-    background: #288ce2;
+    background: #4ad1ef;
     text-decoration: none;
     color: #fff;
     font-weight: 800;
     padding: 1.5em;
     padding-top: 8px;
     padding-bottom: 8px;
-    border: solid 2px #288ce2;
+    border: solid 2px #4ad1ef;
     cursor: pointer;
 }
 
@@ -598,7 +623,7 @@ header::after {
 
 .about-title h1 {
     font-family: "Days One", serif;
-    color: #288ce2;
+    color: #ffa23f;
     font-weight: 100;
     text-align: center;
     padding-top: 1em;
@@ -645,7 +670,7 @@ header::after {
 
 .hobby-holder p i,
 .hobby-holder p span{
-    color: #4ad1ef
+    color: #4ad1ef;
 }
 
 #hobby-t {
@@ -705,7 +730,7 @@ header::after {
 }
 
 #submitBtn {
-    background-color: #288ce2;
+    background-color: #4ad1ef;
     border: none;
     color: #fff;
     cursor: pointer;
@@ -1092,6 +1117,10 @@ header::after {
 
 @media (min-width: 700px) {
     
+    #tech-card {
+        margin-top: 52px;
+    }
+    
     .wrap-wrap {
         margin-top: 3em;
         overflow-x: hidden;
@@ -1394,7 +1423,7 @@ header::after {
     }
     
     #logo #A {
-        color: #4ad6f9;
+        color: #288ce2;
     }
     
     .site-nav {
@@ -1429,7 +1458,7 @@ header::after {
     }
     
     #resume {
-        background: #288ce2;
+        background: #ffa23f;
         padding: .25em 1em;
         border-radius: 3px;
         margin-left: 3em;
@@ -1437,7 +1466,7 @@ header::after {
     }
     
     #resume:hover {
-        background: #49aaef;
+        background: #ff8b3f;
     }
     
     .site-nav a {
