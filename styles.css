@@ -313,7 +313,7 @@ header::after {
 }
 
 .icon-set i {
-    margin: .75em;
+    margin: .5em;
     margin-top: 0;
     margin-bottom: .5em;
     font-size: 26px;
@@ -468,6 +468,7 @@ header::after {
     padding-top: 2em;
     align-items: center;
     transition: all ease-in-out 300ms;
+    overflow-x: hidden;
 }
 
 .project-card:last-child{
@@ -616,6 +617,9 @@ header::after {
     background-color: #fff;
 }
 
+.about-1 {
+}
+
 .about-content img {
     max-width: 450px;
     width: 95%;
@@ -623,11 +627,12 @@ header::after {
 
 .about-content p {
     width: 95%;
-    text-align: center;
+    text-align: left;
     margin: 0 auto;
     margin-top: 1.5em;
     margin-bottom: 2em;
     line-height: 22px;
+    max-width: 465px;
 }
 
 .hobby-holder {
@@ -635,6 +640,7 @@ header::after {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    display: none;
 }
 
 .hobby-holder p i,
@@ -1088,6 +1094,7 @@ header::after {
     
     .wrap-wrap {
         margin-top: 3em;
+        overflow-x: hidden;
     }
     
     .splash-bg {
@@ -1294,9 +1301,6 @@ header::after {
         text-align: center;
     }
     
-    .about-content p {
-        width: 80%;
-    }
     
     .about-title h1 {
         padding-bottom: .3em;
@@ -1339,6 +1343,43 @@ header::after {
 }
 
 @media (min-width: 850px) {
+    
+    .about-content p {
+        width: 80%;
+    }
+    
+    #about-title {
+        padding-top: 4em;
+    }
+    
+    .about-content {
+        max-width: 1100px;
+        margin: 0 auto;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 5em;
+    }
+    
+    .about-content p {
+        order: 0;
+        max-width: 650px;
+        text-align: left;
+        align-self: flex-start;
+        line-height: 22px;
+        margin-left: 3em;
+    }
+    
+    .about-content img {
+        order: 1;
+        width: 50%;
+        max-width: 450px;
+        padding-right: 1em;
+    }
+    
+    .hobby-holder {
+        padding-left: 3em;
+        display: block;
+    }
     
     #m-logo {
         display: none;
@@ -1416,37 +1457,7 @@ header::after {
 
 @media (min-width: 1000px) {
     
-    #about-title {
-        padding-top: 4em;
-    }
     
-    .about-content {
-        max-width: 1100px;
-        margin: 0 auto;
-        flex-direction: row;
-        justify-content: space-between;
-        padding-bottom: 5em;
-    }
-    
-    .about-content p {
-        order: 0;
-        max-width: 650px;
-        text-align: left;
-        align-self: flex-start;
-        line-height: 22px;
-        margin-left: 3em;
-    }
-    
-    .about-content img {
-        order: 1;
-        width: 50%;
-        max-width: 450px;
-        padding-right: 1em;
-    }
-    
-    .hobby-holder {
-        padding-left: 3em;
-    }
     
 }
 
