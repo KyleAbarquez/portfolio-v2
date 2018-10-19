@@ -618,7 +618,7 @@ hr {
 /******** ABOUT ME SECTION STYLES ********/
 
 .about-title  {
-    text-align: center;
+    text-align: left;
 }
 
 .about-title h1 {
@@ -627,6 +627,7 @@ hr {
     font-weight: 100;
     text-align: center;
     padding-top: 1em;
+    
 }
 
 .about-content {
@@ -1116,6 +1117,20 @@ hr {
 }
 
 @media (min-width: 700px) {
+    
+    .about-title h1 {
+        color: lightgrey;
+        font-size: 3em;
+    }
+    
+    .title-holder {
+        margin: 0
+    }
+    
+    .title-holder h1 {
+        color: lightgrey;
+        font-size: 3em;
+    }
     
     #tech-card {
         margin-top: 52px;
