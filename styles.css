@@ -156,7 +156,7 @@ header::after {
     position: absolute;
     top: 100%;
     right: 0%;
-    background: rgba(255, 255, 255, .8);
+    background: rgba(255, 255, 255, .95);
     border-radius: 0px 0px 0px 12px;
     transition: clip-path ease-in-out 300ms;
     height: 0px;
