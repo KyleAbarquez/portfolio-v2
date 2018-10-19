@@ -156,7 +156,7 @@ header::after {
     position: absolute;
     top: 100%;
     right: 0%;
-    background: #FFF;
+    background: rgba(255, 255, 255, .8);
     border-radius: 0px 0px 0px 12px;
     transition: clip-path ease-in-out 300ms;
     height: 0px;
@@ -179,16 +179,12 @@ header::after {
 }
 
 .site-nav a {
-    color: #494949;
+    color: #000;
     display: block;
     padding: 2em 6em;
     text-decoration: none;
-}
-
-.navlink:hover,
-.navlink:focus {
-    background: #C8FCF6;
-    color: #494949;
+    font-weight: 800;
+    font-size: 18px;
 }
 
 .menu-toggle {
