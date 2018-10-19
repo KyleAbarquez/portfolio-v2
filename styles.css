@@ -1304,7 +1304,7 @@ hr {
     
     .project-description {
         max-width: 480px;
-        margin-left: -3em;
+        margin-left: -1em;
         box-shadow: 2px 2px 4px #ccc;
         z-index: 10;
     }
@@ -1317,7 +1317,7 @@ hr {
     .odd-child .project-description {
         order: 1;
         margin-left: 0;
-        margin-right: -3em;
+        margin-right: -1em;
         box-shadow: -2px 2px 4px #ccc;
         z-index: 3;
     }
