@@ -21,24 +21,24 @@ $('.menu-toggle').click(function() {
           });
        });
 
-var megaModal = document.getElementById('megaModal');
-var megaBtn = document.getElementById("megaBtn");
-var megaSpan = document.getElementById("megaX");
-
-megaBtn.onclick = function() {
-    megaModal.classList.add('open');
-    megaModal.style.animation = "modalIn 500ms forwards";
-};
-
-const megamodalClose = function() {
-    megaModal.classList.remove('open');
-    megaModal.removeEventListener('animationend', megamodalClose);
-}
-
-megaSpan.onclick = function() {
-    megaModal.style.animation = "modalOut 500ms forwards";
-    megaModal.addEventListener('animationend', megamodalClose);
-};
+//var megaModal = document.getElementById('megaModal');
+//var megaBtn = document.getElementById("megaBtn");
+//var megaSpan = document.getElementById("megaX");
+//
+//megaBtn.onclick = function() {
+//    megaModal.classList.add('open');
+//    megaModal.style.animation = "modalIn 500ms forwards";
+//};
+//
+//const megamodalClose = function() {
+//    megaModal.classList.remove('open');
+//    megaModal.removeEventListener('animationend', megamodalClose);
+//}
+//
+//megaSpan.onclick = function() {
+//    megaModal.style.animation = "modalOut 500ms forwards";
+//    megaModal.addEventListener('animationend', megamodalClose);
+//};
 
 var ikeaModal = document.getElementById('ikeaModal');
 var ikeaBtn = document.getElementById("ikeaBtn");
