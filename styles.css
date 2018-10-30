@@ -899,6 +899,7 @@ hr {
     margin-top: .5em;
     margin-bottom: 1em;
     text-align: left;
+    line-height: 20px;
 }
 
 .walkthru-step p span {
