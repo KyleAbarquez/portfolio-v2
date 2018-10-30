@@ -887,6 +887,36 @@ hr {
     margin-top: 2em;
     display: block;
 }
+
+.walkthru-step {
+    text-align: center;
+}
+
+.walkthru-step p {
+    border-radius: 12px;
+    max-width: 320px;
+    margin: 0 auto;
+    margin-top: .5em;
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+.walkthru-step p span {
+    display: inline-block;
+    margin-right: .3em;
+    color: #FFF;
+    padding: 4px;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: orange;
+    border-radius: 4px;
+}
+
+.walkthru-screen {
+    margin-top: 1em;
+    width: 100%;
+    max-width: 260px;
+}
 /******** MODAL STYLES ********/
 
 .portfolio-modal {
@@ -942,7 +972,14 @@ hr {
 
 @media (min-width: 520px) {
     
+    .walkthru-step {
+        display: flex;
+        align-items: center;
+    }
     
+    .walkthru-step p {
+        
+    }
     
     .persona-holder {
         flex-direction: row;

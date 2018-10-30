@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Days+One|Domine|Radley" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body>
@@ -39,7 +40,7 @@
         
         <img src="img/retro-market-mockup.png" alt="mega market app mockup" class="cs-img margin-top-l" id="header-img">
         
-        <h2 class="margin-top-l"><i class="fas fa-circle"></i> Project Summary</h2>
+        <h2 class="margin-top-l "><i class="fas fa-circle"></i> Project Summary</h2>
         
         <div class="cs-text margin-top-m">
             Mega Market is an app concept that aims to help retro game collectors  in building their collections via purchases and trades with other hobbyists. Inspired by apps such as Letgo and Mercari, Mega Market aims to streamline the process of listing, finding, and obtaining games- with an emphasis on community interaction.
@@ -47,6 +48,53 @@
         <div class="cs-text margin-top-m">
             For this project, I chose to first hone in on designing a user flow that represents the main functionality of the app. This is the flow of a user finding a game, constructing an offer for that game, and submitting that offer. In addition to designing this user flow, I also created a cohesive visual design along with some branding to give the app distinct character.
         </div>
+        
+        <h2 class="margin-top-l"><i class="fas fa-circle"></i> Screen Walkthrough</h2>
+        
+        <div class="cs-text margin-top-m">
+            Below is a step by step walkthrough of the user flow I designed. Follow the pink cursor icon as a guide for where the user will tap.
+        </div>
+        
+        <div class="walkthru-step slideright">
+            <img src="img/walkthru2.png" alt="" class="walkthru-screen">
+            <p><span>1</span>This is the app's home screen. Here the user can browse through games available locally, reccomended games based on their want list, and also games that the user has available for trade that other users have on their own want lists. The user in this flow is looking for a game called "PaRappa the Rapper". They tap on that game's tile.</p>
+        </div>
+        
+        <div class="walkthru-step slideright">
+            <img src="img/walkthru3.png" alt="" class="walkthru-screen">
+            <p><span>2</span>The user can view the game art and also copies of this game that other users have available for sale and/or trade. They tap to see details about a listing that interests them.</p>
+        </div>
+        
+        <div class="walkthru-step slideright">
+            <img src="img/walkthru4.png" alt="" class="walkthru-screen">
+            <p><span>3</span>A modal window appears showing details about the listing. Here the user can view images, description, asking price, and also games that the seller is currently looking for. Games that the user has available that match with the seller's want list are highlighted in green. The user taps the button to buy or construct and offer.</p>
+        </div>
+        
+        <div class="walkthru-step slideright">
+            <img src="img/walkthru5.png" alt="" class="walkthru-screen">
+            <p><span>4</span>This is the buy/make an offer screen. The user may select games from their available list to include in their offer, choose to include cash with the offer, or even just purchase the game for the seller's asking price. The user in this flow begins to construct an offer by tapping the "+" to include "Megaman Legends 2" in their trade offer.</p>
+        </div>
+        
+        <div class="walkthru-step slideright">
+            <img src="img/walkthru6.png" alt="" class="walkthru-screen">
+            <p><span>5</span>A modal appears in which the user may add/edit details for the game they wish to include in their offer. Once done with this, the user taps "Add to offer".</p>
+        </div>
+        
+        <div class="walkthru-step slideright">
+            <img src="img/walkthru7.png" alt="" class="walkthru-screen">
+            <p><span>6</span>The user may continue constructing their offer or tap "Review offer" if they are finished doing so.</p>
+        </div>
+        
+        <div class="walkthru-step slideright">
+            <img src="img/walkthru8.png" alt="" class="walkthru-screen">
+            <p><span>7</span>The user now views the offer they have consstructed. If they wish to make changes they may go back to the buy/make an offer screen. If satisfied, they may submit their offer.</p>
+        </div>
+        
+        <div class="walkthru-step slideright">
+            <img src="img/walkthru9.png" alt="" class="walkthru-screen">
+            <p><span>8</span>An offer confirmation screen gives the user information about the post-offer process. From here, the user can continue browsing the app by tapping "Continue shopping".</p>
+        </div>
+        
         
         <h2 class="margin-top-l"><i class="fas fa-circle"></i> Product Concept</h2>
         
@@ -114,7 +162,7 @@
         <h2 class="margin-top-l"><i class="fas fa-circle"></i> Nailing Down a Visual Style</h2>
         <img src="img/style-guide.png" alt="" class="cs-img">
         <div class="cs-text margin-top-s">
-            I wanted to give the app a look that was sleek but also fun to fit the theme of video games. I felt like a color scheme of purple with greys combined with the “Days One” font face gave the app a nice techy feel that wasn’t overly serious. I chose some minmalist icons with distinct rounded edges to match the main font as well as the logo.
+            I wanted to give the app a look that was sleek but also fun to fit the theme of video games. I felt like a color scheme of lime green with greys combined with the “Days One” font face gave the app a nice techy feel that wasn’t overly serious. I chose some minmalist icons with distinct rounded edges to match the main font as well as the logo.
         </div>
         
         <h2 class="margin-top-l"><i class="fas fa-circle"></i> High Fidelity Screen Design</h2>
@@ -148,6 +196,52 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="app.js"></script>
+    <script>  
+        window.sr = ScrollReveal();
+
+        sr.reveal('.slideright', {
+          duration: 1500,
+          origin: 'right',
+          distance: '300px',
+          viewFactor: .5
+        });
+
+        sr.reveal('.slideleft', {
+          duration: 1500,
+          origin: 'left',
+          distance: '300px',
+          viewFactor: .5
+        });
+
+        // scale up
+
+        ScrollReveal().reveal('.maintitle', {
+          scale: 0.4,
+          duration: 2500,
+          viewFactor: .5
+        });
+
+        ScrollReveal().reveal('.animategrow', {
+          scale: 0.4,
+          duration: 1200,
+          viewFactor: .4
+        });
+
+        // opacity 0 to 1 on scroll
+        ScrollReveal().reveal('.reveal', {
+          distance: '0px',
+          opacity: 0,
+          duration: 1500,
+          viewFactor: .5
+        });
+
+        sr.reveal('.slidebottom', {
+          duration: 1000,
+          delay: 200,
+          origin: 'bottom',
+          distance: '80px'
+        });
+  </script>
 
 </body>
 </html>
