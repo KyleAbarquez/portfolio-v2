@@ -230,12 +230,23 @@ header::after {
 /******** SPLASH SCREEN STYLES ********/
 
 .splash-bg {
+/*
     background-color: #FFF;
-    background-image: url(img/pcbg.png);
+    background-image: url(img/dots.png);
     background-image: linear-gradient(-45deg, #cecece, #fff);
     background-repeat: no-repeat;
     background-size: cover;
+    
+*/
 /*    height: 100vh;*/
+/*      padding: 2.25em 1.6875em;*/
+  background-image: -webkit-repeating-radial-gradient(center center, rgba(0,0,0,.1), rgba(0,0,0,.1) 1px, transparent 1px, transparent 100%);
+  background-image: -moz-repeating-radial-gradient(center center, rgba(0,0,0,.1), rgba(0,0,0,.1) 1px, transparent 1px, transparent 100%);
+  background-image: -ms-repeating-radial-gradient(center center, rgba(0,0,0,.1), rgba(0,0,0,.1) 1px, transparent 1px, transparent 100%);
+  background-image: repeating-radial-gradient(center center, rgba(0,0,0,.1), rgba(0,0,0,.1) 1px, transparent 1px, transparent 100%);
+  -webkit-background-size: 3px 3px;
+  -moz-background-size: 3px 3px;
+  background-size: 3px 3px;
     max-height: 800px;
     border: thin transparent solid;
     border-bottom: thin #fff solid;
@@ -268,7 +279,7 @@ header::after {
     padding: 1em;
     padding-top: 3em;
     border-radius: 18px;
-    
+/*    background-color: white;*/
 }
 
 .splash-2 {
