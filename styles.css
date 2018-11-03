@@ -274,7 +274,7 @@ header::after {
 
 .splash-1 h1 {
     font-family: "Days One", serif;
-    color: #ffa23f;
+    color: #42d1f4;
     font-weight: 100;
     margin-bottom: .5em;
 }
@@ -291,6 +291,7 @@ header::after {
     width: 100%;
     max-width: 300px;
     margin-bottom: 1em;
+    border-radius: 100%;
 }
 
 .c-info p {
@@ -320,7 +321,7 @@ header::after {
 
 .icon-set i:hover {
     transform: scale(1.2) rotate(12deg);
-    color: #ff8b3f;
+    color: #42d1f4;
 }
 
 #splash-blurb {
@@ -581,14 +582,14 @@ hr {
     margin-top: 18px;
     border-radius: 6px;
     transition: all ease-in-out 150ms;
-    background: #ffa23f;
+    background: #42d1f4;
     text-decoration: none;
     color: #fff;
     font-weight: 800;
     padding: 1.5em;
     padding-top: 8px;
     padding-bottom: 8px;
-    border: solid 2px #ffa23f;
+    border: solid 2px #42d1f4;
     cursor: pointer;
 }
 
@@ -603,8 +604,8 @@ hr {
 }
 
 .case-btn:hover {
-    background-color: #ff8b3f;
-    border-color: #ff8b3f;
+    background-color: #33bbdd;
+    border-color: #33bbdd;
 }
 
 .case-btn:hover .case-btn a{
@@ -667,7 +668,7 @@ hr {
 
 .hobby-holder p i,
 .hobby-holder p span{
-    color: #ffa23f;
+    color: #42d1f4;
 }
 
 #hobby-t {
@@ -727,7 +728,7 @@ hr {
 }
 
 #submitBtn {
-    background-color: #ffa23f;
+    background-color: #42d1f4;
     border: none;
     color: #fff;
     cursor: pointer;
@@ -735,7 +736,7 @@ hr {
 }
 
 #submitBtn:hover {
-    background-color: #ff8b3f;
+    background-color: #33bbdd;
 }
 
 /******** FOOTER STYLES ********/
@@ -859,7 +860,7 @@ hr {
 }
 
 .cs-text a {
-    color: #ffa23f;
+    color: #42d1f4;
     font-weight: 800;
     border-bottom: 1.5px solid;
     text-decoration: none;
@@ -1140,7 +1141,7 @@ hr {
     .splash-1 {
         text-align: left;
         align-items: flex-start;
-        align-self: flex-start;
+        align-self: center;
     }
     
     .splash-1 p {
@@ -1366,7 +1367,7 @@ hr {
     }
     
     #resume {
-        background: #ffa23f;
+        background: #42d1f4;
         padding: .25em 1em;
         border-radius: 3px;
         margin-left: 3em;
@@ -1374,7 +1375,7 @@ hr {
     }
     
     #resume:hover {
-        background: #ff8b3f;
+        background: #33bbdd;
     }
     
     .site-nav a {
@@ -1384,19 +1385,13 @@ hr {
     .navlink:hover,
     .navlink:focus {
         background: none;
-        color: #ff8b3f;
+        color: #42d1f4;
     }
     
     #logo:hover {
         transform: scale(1.1);
         color: #ff8b3f;
     }
-}
-
-@media (min-width: 1000px) {
-    
-    
-    
 }
 
 @media (min-width: 1100px){
