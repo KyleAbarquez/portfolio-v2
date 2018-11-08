@@ -240,6 +240,7 @@ header::after {
 */
 /*    height: 100vh;*/
 /*      padding: 2.25em 1.6875em;*/
+/*
   background-image: -webkit-repeating-radial-gradient(center center, rgba(0,0,0,.1), rgba(0,0,0,.1) 1px, transparent 1px, transparent 100%);
   background-image: -moz-repeating-radial-gradient(center center, rgba(0,0,0,.1), rgba(0,0,0,.1) 1px, transparent 1px, transparent 100%);
   background-image: -ms-repeating-radial-gradient(center center, rgba(0,0,0,.1), rgba(0,0,0,.1) 1px, transparent 1px, transparent 100%);
@@ -247,6 +248,9 @@ header::after {
   -webkit-background-size: 3px 3px;
   -moz-background-size: 3px 3px;
   background-size: 3px 3px;
+*/
+    background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23f9b40f' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
     max-height: 800px;
     border: thin transparent solid;
     border-bottom: thin #fff solid;
@@ -290,7 +294,7 @@ header::after {
     font-family: "Days One", serif;
     color: #ffa23f;
     font-weight: 100;
-    margin-bottom: .5em;
+    margin-bottom: .2em;
 }
 
 .splash-1 p {
